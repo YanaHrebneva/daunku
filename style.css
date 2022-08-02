@@ -324,7 +324,7 @@ li {
 .interior-section {
   max-width: 1484px;
   margin: 0 auto;
-  padding: 26px 0;
+  padding: 26px 0 184px 0;
 }
 
 .interior-header-wrapper {
@@ -401,4 +401,92 @@ li {
   to {
     opacity: 100;
   }
+}
+
+.care-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1488px;
+  margin: 0 auto;
+}
+
+.care-header-wrapper {
+  max-width: 452px;
+  padding-bottom: 82px;
+}
+
+.care-header {
+  font-family: Work Sans;
+  font-size: 4rem;
+  line-height: 75px;
+  color: #081323;
+  padding-bottom: 26px;
+}
+
+.care-span {
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #4f4f4f;
+}
+
+.care-hints {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 585px;
+  height: 495px;
+}
+
+.care-hints__item {
+  max-width: 585px;
+  display: flex;
+}
+
+.care-hints__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.care-hints__header {
+  font-family: Work Sans;
+  font-size: 2rem;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.care-hints__span {
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  line-height: 26px;
+  color: #828282;
+}
+
+.care-hints__icon {
+  width: 68px;
+  height: 68px;
+  padding-right: 58px;
+  background-repeat: no-repeat;
+}
+
+.care-hints__icon_sun {
+  background-image: url(assets/icons/sun.svg);
+}
+
+.care-hints__icon_water {
+  background-image: url(/assets/icons/water.svg);
+}
+
+.care-hints__icon_plant {
+  background-image: url(/assets/icons/plant-pot.svg);
+}
+
+.care-hints__icon_temp {
+  background-image: url(/assets/icons/temperature.svg);
+}
+
+.care-img {
+  width: 657px;
+  height: 618px;
 }
