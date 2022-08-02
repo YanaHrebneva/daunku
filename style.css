@@ -32,3 +32,90 @@ body {
   margin: 0 auto;
   color: #081323;
 }
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.big-wrapper {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 82%, #FFFFFF 98%), url(assets/images/background.png);
+  width: 100%;
+  height: 1190px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1474px;
+  margin: 0 auto;
+  padding: 60px 0 85px 0;
+}
+
+.logo {
+  font-family: Inter;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.logo::before {
+  position: relative;
+  content: url(assets/icons/logo.svg);
+  right: 6px;
+  top: 4px;
+}
+
+.header-navigation {
+  width: 534px;
+  margin-right: 130px;
+}
+
+.header-navigation > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation__link {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.header-navigation__link:hover {
+  background-image: linear-gradient(90deg, #2AF598, #009EFD);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 1128px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.main-text__header {
+  font-family: Work Sans Bold;
+  font-size: 82px;
+  text-transform: capitalize;
+  padding-bottom: 24px;
+}
+
+.lower-case {
+  text-transform: lowercase;
+}
+
+.main-text__phrase {
+  width: 583px;
+  font-size: 1.5rem;
+  line-height: 150%;
+  padding-bottom: 42px;
+}
