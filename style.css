@@ -212,3 +212,112 @@ li {
 .advatages__icon_headset {
   background: url(assets/icons/headset.svg) no-repeat;
 }
+
+.products-section {
+  width: 1452px;
+  margin: 0 auto;
+  padding: 155px 0px;
+}
+
+.products-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-header-wrapper {
+  width: 363px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-header {
+  font-family: Work Sans;
+  font-size: 4rem;
+  text-transform: capitalize;
+  line-height: 75px;
+}
+
+.colection-link {
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  color: #4f4f4f;
+}
+
+.colection-link::after {
+  content: url(assets/icons/arrow.svg);
+  position: relative;
+  top: 3px;
+  left: 21px;
+}
+
+.colection {
+  display: flex;
+  width: 1051px;
+  justify-content: space-between;
+}
+
+.colection__item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 329px;
+  height: 510px;
+  background: #c1d0e4;
+  border-radius: 50px;
+  filter: drop-shadow(0px 4px 30px rgba(221, 218, 218, 0.25));
+}
+
+.colection__img {
+  position: absolute;
+  bottom: 290px;
+  left: 3px;
+}
+
+.colection__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 208px;
+  padding: 26px 38px;
+}
+
+.colection__info_header {
+  font-family: Work Sans;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding-bottom: 6px;
+}
+
+.colection__info_rating {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  content: url(/assets/icons/star.svg);
+}
+
+.colection__buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colection__price {
+  font-family: Work Sans;
+  font-size: 2rem;
+}
+
+.colection__button {
+  background: url(assets/icons/plus.svg) no-repeat 50% 50%;
+  width: 64px;
+  height: 64px;
+  border: none;
+  cursor: pointer;
+}
+
