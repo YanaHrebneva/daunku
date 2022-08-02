@@ -119,3 +119,44 @@ li {
   line-height: 150%;
   padding-bottom: 42px;
 }
+
+.search-panel {
+  width: 463px;
+  height: 71px;
+  position: relative;
+}
+
+.search-panel__input {
+  width: 401px;
+  height: 69px;
+  outline: 0;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  background-color: #ffffff33;
+  padding: 0 30px;
+  backdrop-filter: blur(20px);
+}
+
+.search-panel__input:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+.search-panel__input::placeholder {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+.search-panel__btn {
+  background: url(assets/icons/loupe.svg) no-repeat 50% 50%, linear-gradient(90deg, #2AF598, #009EFD);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 50px;
+  border: 0;
+  top: 10px;
+  right: 12px;
+  cursor: pointer;
+}
