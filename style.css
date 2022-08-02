@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Inter; 
+  src: url(assets/fonts/Inter-Bold.ttf);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+@font-face {
+  font-family: Work Sans; 
+  src: url(assets/fonts/work-sans.regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Work Sans Bold; 
+  src: url(assets/fonts/work-sans.bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: Work Sans;
+  max-width: 1728px;
+  margin: 0 auto;
+  color: #081323;
+}
