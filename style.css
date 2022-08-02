@@ -160,3 +160,55 @@ li {
   right: 12px;
   cursor: pointer;
 }
+
+.section {
+  max-width: 1487px;
+  margin: 0 auto;
+}
+
+.advantages {
+  padding: 103px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  display: flex;
+  align-items: center;
+}
+
+.advantages__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.advantages__header {
+  font-family: Work Sans;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.advantages__span {
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  line-height: 52px;
+  color: #828282;
+}
+
+.advatages__icon {
+  width: 84px;
+  height: 84px;
+  padding-right: 24px;
+}
+
+.advatages__icon_box {
+  background: url(assets/icons/box.svg) no-repeat 23% 15%;
+}
+
+.advatages__icon_wallet {
+  background: url(assets/icons/wallet.svg) no-repeat 23% 15%;
+}
+
+.advatages__icon_headset {
+  background: url(assets/icons/headset.svg) no-repeat;
+}
