@@ -389,7 +389,7 @@ li {
 }
 
 .star {
-  content: url(/assets/icons/star.svg);
+  content: url(assets/icons/star.svg);
 }
 
 .colection__buy {
@@ -567,15 +567,15 @@ li {
 }
 
 .care-hints__icon_water {
-  background-image: url(/assets/icons/water.svg);
+  background-image: url(assets/icons/water.svg);
 }
 
 .care-hints__icon_plant {
-  background-image: url(/assets/icons/plant-pot.svg);
+  background-image: url(assets/icons/plant-pot.svg);
 }
 
 .care-hints__icon_temp {
-  background-image: url(/assets/icons/temperature.svg);
+  background-image: url(assets/icons/temperature.svg);
 }
 
 .care-img {
