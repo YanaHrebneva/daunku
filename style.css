@@ -93,6 +93,23 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+.cart {
+  position: relative;
+}
+
+.cart_counter {
+  position: absolute;
+  left: 19px;
+  top: 5px;
+  width: 21px;
+  height: 21px;
+  background: linear-gradient(90deg, #2AF598, #009EFD);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
 .main-section {
   position: relative;
 }
