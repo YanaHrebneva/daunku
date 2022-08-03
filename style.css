@@ -17,7 +17,7 @@ html {
 @font-face {
   font-family: Work Sans; 
   src: url(assets/fonts/work-sans.regular.ttf);
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
@@ -454,7 +454,6 @@ li {
   font-family: Work Sans;
   font-size: 2rem;
   line-height: 45px;
-  text-transform: capitalize;
 }
 
 .care-hints__span {
@@ -552,6 +551,14 @@ footer {
   padding-bottom: 16px;
 }
 
-.footer-copyrigh {
+.footer-copyrigh-wrapper {
   text-align: center;
+  padding-top: 52px;
+}
+
+.footer-copyrigh {
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #ffffff;
 }
