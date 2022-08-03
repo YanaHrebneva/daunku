@@ -93,6 +93,78 @@ li {
   -webkit-text-fill-color: transparent;
 }
 
+.main-section {
+  position: relative;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 54px;
+  height: 54px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  background: #ffffff33;
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+}
+
+.tooltip_plant {
+  bottom: 129px;
+  left: 103px;
+}
+
+.tooltip_cactus {
+  top: 23px;
+  left: 192px;
+}
+
+.tooltip_flower {
+  bottom: 30px;
+  left: 90%;
+}
+
+.tooltip__circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background: #ffffff;
+}
+
+.tooltip__text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  width: 180px;
+  bottom: 70px;
+  background: #ffffff33;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff;
+  border-radius: 24px;
+  color: #fff;
+  padding: 20px 0 20px 20px;
+}
+
+.tooltip:hover .tooltip__text {
+  visibility: visible;
+}
+
+.tooltip__price {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 38px;
+  padding-bottom: 12px;
+}
+
+.tooltip__name {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
 .main-text {
   display: flex;
   flex-direction: column;
